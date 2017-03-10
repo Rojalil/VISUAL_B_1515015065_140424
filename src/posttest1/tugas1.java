@@ -1,4 +1,4 @@
-package postTestmodul1;
+package posttest1;
 
 
 import javax.swing.JOptionPane;
@@ -13,12 +13,12 @@ import javax.swing.JOptionPane;
  *
  * @author straight
  */
-public class posttestmodul1 extends javax.swing.JFrame {
+public class tugas1 extends javax.swing.JFrame {
 
     /**
      * Creates new form Datamahasiswa
      */
-    public posttestmodul1() {
+    public tugas1() {
         initComponents();
     }
 
@@ -252,21 +252,23 @@ public class posttestmodul1 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(posttestmodul1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(tugas1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(posttestmodul1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(tugas1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(posttestmodul1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(tugas1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(posttestmodul1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(tugas1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new posttestmodul1().setVisible(true);
+                new tugas1().setVisible(true);
             }
         });
     }

@@ -348,6 +348,7 @@ public class tugas1 extends javax.swing.JFrame {
         ttelepon.setText("");
         ttotal.setText("");
         btnproses.setEnabled(false);
+        jrreguler.setSelected(true);
     }//GEN-LAST:event_formWindowOpened
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked

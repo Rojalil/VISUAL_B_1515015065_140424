@@ -420,14 +420,6 @@ public class tugas1 extends javax.swing.JFrame {
         {
             btnproses.setEnabled(true);
         }
-//        else if(telp.equals(""))
-//        {
-//            btnproses.setEnabled(false);
-//        }
-//        else if(berat.equals("0"))
-//        {
-//            btnproses.setEnabled(false);
-//        }
         else
         {
             btnproses.setEnabled(false);
